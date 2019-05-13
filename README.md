@@ -1,6 +1,8 @@
 # awhelper
 A tcl script for some common tasks for AndroWish: http://www.androwish.org/index.html/home
 
+![AWhelper logo](https://github.com/dzach/awhelper/blob/master/awhelper.png)
+
 Provides a dialog with the following options:
 1. Create a home screen shortcut
    - Select target TCL script
@@ -15,3 +17,8 @@ Provides a dialog with the following options:
 ![AWhelper on awemu](https://github.com/dzach/awhelper/blob/master/awhelper.gif)
 
 (NOTE: That's not a video of a phone. It is a screencast of an android screen emulator, written in TCL, but still in pre-alpha state. Here it is used to rotate the screen for testing of the widgets.) 
+
+To use it:
+
+1. Drop it in any place in the phone's / tablet's SDcard and source it with AndroWish.
+2. Make a shortcut to it by using the script itself, and have this shortcut available when needed. Use the provided png file (awhelper.png) for a shortcut icon.
