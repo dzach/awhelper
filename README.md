@@ -8,7 +8,7 @@ Provides a dialog with the following options:
    - Select target TCL script
    - Select optional icon for the shortcut
    - Enter an optional name for the shortcut
-2. Edit and install .wishrc in the HOME directory of an Android device
+2. Edit and install .wishrc in the AndroWish HOME directory of an Android device
    - The .wishrc script is autoloaded whenever the AndroWish binary is run.
    - The simple editor provides text cursor navigation buttons to make editing on a phone a little easier.
  
