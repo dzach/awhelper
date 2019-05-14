@@ -16,7 +16,7 @@ Provides a dialog with the following options:
  
 ![AWhelper on awemu](https://github.com/dzach/awhelper/blob/master/awhelper.gif)
 
-(NOTE: That's not a video of a phone. It is a screencast of an android screen emulator, written in TCL, but still in pre-alpha state. Here it is used to rotate the screen for testing of the widgets.) 
+(NOTE: The screencast above is from an android screen emulator, written in TCL. More on this emulator will appear [here](https://github.com/dzach/awemu) ). 
 
 To use it:
 
