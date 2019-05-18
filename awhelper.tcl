@@ -465,7 +465,7 @@ proc init args {
 		# non android -----------------------------------------
 		set (android) 0
 		# locations for packages
-		lappend auto_path ~/lib
+		lappend ::auto_path ~/lib
 		::tcl::tm::path add ~/lib/tm
 		# define geometry for non android
 		if {[info command ::borg] eq {}} { 
@@ -476,7 +476,7 @@ proc init args {
 			array set {} [::borg displaymetrics]
 		}
 	}
-	package require MaterialIcons
+	package require MaterialIcons 0.2
 	maticon close ::awhelper::close_img -color #fff -size 24d
 	maticon more_vert ::awhelper::more_img -color #fff -size 24d
 	maticon open_with ::awhelper::nav_img -color #dedede -size 32d
